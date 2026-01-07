@@ -1,6 +1,7 @@
 // src/controllers/usuarioController.ts
 import { Request, Response } from 'express'
-import { pool } from '../config/database'
+
+import { pool } from "../config/database";
 import { RowDataPacket, ResultSetHeader } from 'mysql2';
 import { CrearUsuarioDTO, ActualizarUsuarioDTO, UsuarioResponseDTO } from '../models/usuario';
 
