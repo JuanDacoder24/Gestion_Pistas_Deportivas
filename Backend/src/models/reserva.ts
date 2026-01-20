@@ -21,6 +21,7 @@ export interface CrearReservaDTO {
   fecha_reserva: string; // 'YYYY-MM-DD'
   hora_inicio: string; // 'HH:MM'
   hora_fin: string; // 'HH:MM'
+  notas?: string;
 }
 
 // DTO para actualizar reserva
@@ -29,6 +30,7 @@ export interface ActualizarReservaDTO {
   hora_inicio?: string;
   hora_fin?: string;
   estado?: 'pendiente' | 'confirmada' | 'cancelada' | 'completada';
+  notas?: string;
 }
 
 // DTO para consultar disponibilidad

@@ -6,7 +6,7 @@ import * as usuarioController from '../controllers/usuarioController';
 const router = Router();
 
 // Rutas públicas
-// router.post('/login', usuarioController.login);
+//router.post('/login', usuarioController.login);
 router.post('/registro', usuarioController.crearUsuario);
 
 // Rutas de usuarios
